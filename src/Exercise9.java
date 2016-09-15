@@ -1,7 +1,7 @@
 /**
- * Create three new types of exceptions. Write a class with a method that throws all three.
- * In main(), call the method but only use a single catch clause that will catch all three
- * types of exception
+ * Create three new types of exceptions. Write a class with a method that throws
+ * all three. In main(), call the method but only use a single catch clause that
+ * will catch all three types of exception
  *
  * @author Kim Thy Nguyen
  * @version %I%, %G%
@@ -25,6 +25,9 @@ public class Exercise9 {
 class MyException1 extends Exception {
 	MyException1(String msg) {
 		super(msg);
+	}
+	MyException1(String msg, Throwable cause) {
+		super(msg, cause);
 	}
 }
 
