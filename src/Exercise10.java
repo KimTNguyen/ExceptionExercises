@@ -17,7 +17,7 @@
 		}
  	}
 
- 	static void g() throws MyException2{
+ 	static void g() throws MyException2 {
  		throw new MyException2("MyException2");
  	}
 
