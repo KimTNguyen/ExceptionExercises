@@ -13,7 +13,7 @@ public class Exercise9 {
 		throw new MyException1("Exception1");
 	}
 
-	public static void main() {
+	public static void main(String[] args) {
 		try {
 			throwExceptions();
 		} catch (Exception e) {
